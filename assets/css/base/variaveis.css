@@ -1,0 +1,40 @@
+:root {
+    /* Cores - Temas*/
+    --cor-vermelho: #7a0000;
+    --cor-vermelho-escuro: #290000;
+    /* Cores - Outras*/
+    --cor-texto-principal: #FAFAFA;
+    --cor-texto-secundario: #BDBBBE;
+    --cor-texto-terciario: #949296;
+    --cor-texto-desativado: #FAFAFAA0;
+    --cor-itens-inativos:#807D82;
+    --cor-divisoes:#575558;
+    --cor-fundo: #2E2D2F;
+    --cor-fundo-escuro:#0b0909;
+    --cor-sombra:#000000;
+    /* Fonte - Tamanho na raíz*/
+    font-size: 16px;
+    /* Fonte - Familias */
+    --fonte-familia-principal: 'Playfair Display', serif;
+    /* Fonte - Tamanhos */
+    --fonte-tamanho-h1: 3.25rem;
+    --fonte-tamanho-h2: 2.5rem;
+    --fonte-tamanho-h3: 2rem;
+    --fonte-tamanho-h4: 1.625rem;
+    --fonte-tamanho-texto-grande: 1.25rem;
+    --fonte-tamanho-texto-corrido: 1rem;
+    --fonte-tamanho-texto-menor: 0.875rem;
+    --fonte-tamanho-texto-legenda: 0.75rem;
+    /* Fonte - Pesos */
+    --fonte-peso-extralight: 200;
+    --fonte-peso-light: 300;
+    --fonte-peso-regular: 400;
+    --fonte-peso-medium: 500;
+    --fonte-peso-semibold: 600;
+    --fonte-peso-bold: 700;
+    --fonte-peso-extrabold: 800;
+    /* Fonte - Entrelinha */
+    --fonte-entrelinha: 160%;
+    /* Tipo de movimento do scroll */
+    scroll-behavior: smooth;
+}
