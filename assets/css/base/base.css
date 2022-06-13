@@ -1,0 +1,72 @@
+@import url(reset.css);
+@import url(variaveis.css);
+
+@font-face {
+    font-family: 'fa-brands-400';
+    src: url(../../fonts/fa-brands-400.woff2);
+}
+
+@font-face {
+    font-family: 'fa-solid-900';
+    src: url(../../fonts/fa-solid-900.woff2);
+}
+
+body {
+    background: url(../../imgs/fundo.png) center / cover;
+    background-color: var(--cor-fundo-escuro);
+    color: var(--cor-texto-secundario);
+    font-family: var(--fonte-familia-principal);
+    font-size: var(--fonte-tamanho-texto-corrido);
+    font-weight: var(--fonte-peso-regular);
+    width: 100%;
+}
+
+.container {
+    padding: 0 1rem;
+}
+
+.icone::before,
+.icone::after {
+    font-size: 1rem;
+    font-weight: var(--fonte-peso-regular);
+    color: var(--cor-texto-principal);
+}
+
+.icone--margem-esquerda::after {
+    margin-left: 0.25rem;
+}
+
+.icone--margem-direita::before {
+    margin-right: 0.25rem;
+}
+
+.icone-calendario::before {
+    content: '\f073';
+    font-family: 'fa-solid-900';
+}
+
+.icone-relogio::before {
+    content: '\f017';
+    font-family: 'fa-solid-900';
+}
+
+.icone-alfinete::before {
+    content: '\f3c5';
+    font-family: 'fa-solid-900';
+}
+
+.icone-whatsapp::before {
+    content: '\f232';
+    font-family: 'fa-brands-400';
+}
+
+.icone-instagram::before {
+    content: '\f16d';
+    font-family: 'fa-brands-400';
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding: 0 2rem;
+    }
+}
