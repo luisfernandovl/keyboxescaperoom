@@ -1,0 +1,40 @@
+.principal {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.secao {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+    opacity: 0;
+    transition: 500ms linear;
+    transform: translateX(20%);
+}
+
+.secao--animacao {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.secao__titulo {
+    color: var(--cor-texto-principal);
+    display: flex;
+    flex-direction: column;
+    font-size: var(--fonte-tamanho-h4);
+    font-weight: var(--fonte-peso-bold);
+    text-align: center;
+    line-height: 120%;
+}
+
+.secao__titulo--menor {
+    font-size: var(--fonte-tamanho-h3);
+    color: var(--cor-texto-secundario);
+}
+
+.secao__lista-cartao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

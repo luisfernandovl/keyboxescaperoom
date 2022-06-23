@@ -1,0 +1,27 @@
+@keyframes aparece-pela-esquerda {
+    from {
+        transform: translateX(-20%);
+        opacity: 0;
+    }
+}
+
+@keyframes aparece-por-cima {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+}
+
+@keyframes aparece-pela-direita {
+    from {
+        transform: translateX(20%);
+        opacity: 1;
+    }
+}
+
+@keyframes aparece-por-baixo {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+}
